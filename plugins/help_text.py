@@ -102,8 +102,8 @@ async def start_me(bot, update):
                         InlineKeyboardButton("Help", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton(⚡️ Creater ⚡️', url='https://t.me/mr_MKN'),
-                    InlineKeyboardButton('⚜️ our group ⚜️', url='https://t.me/mknmovies'),
+                    InlineKeyboardButton('Creater', url='https://t.me/mr_MKN'),
+                    InlineKeyboardButton('our group', url='https://t.me/mknmovies'),
                 ]
             ]
         ),
