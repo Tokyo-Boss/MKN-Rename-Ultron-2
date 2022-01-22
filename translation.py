@@ -4,7 +4,7 @@ class Translation(object):
 <b>Bot Created By: @mr_MKN </b> \n 
 """
 
-    BANNED_USER_TEXT = "Sorry!! But Mai Owner As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @No_OnE_Kn0wS_Me For more Details.. " 
+    BANNED_USER_TEXT = "Sorry!! But Mai Owner As Banned You From Using This Service. That Means You Can't Run Meh Now! \n \n Contact : @mr_MKN For more Details.. " 
     DOWNLOAD_START = "<b>Downloading To My server !! Pls Wait</b>"
     UPLOAD_START = "<b>Downloading Completed Now I'm Uploading Into TeleGram</b>"
     AFTER_SUCCESSFUL_UPLOAD_MSG = "<b>Thank you for Using Me Support Our Channel @mr_MKN❤️</b>"
