@@ -65,10 +65,7 @@ async def help_user(bot, update):
                 ],
                 [
                     InlineKeyboardButton('🎞️Custom Thumbnail', callback_data = "cthumb"),
-                    InlineKeyboardButton('📑Custom Caption', callback_data = "ccaption")
-                ],
-                [
-                    InlineKeyboardButton('💬About', callback_data = "about")
+                    InlineKeyboardButton('📑Custom Caption', callback_data = "ccaption"),
                 ]
             ]
         )
