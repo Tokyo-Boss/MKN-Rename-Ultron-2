@@ -111,8 +111,8 @@ async def start_me(bot, update):
     )
             return 
 
-@mr_MKN.on_callback_query()
-async def cb_handler(client: MKN BOTZ, query: CallbackQuery):
+@Mai_bOTs.on_callback_query()
+async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
     data = query.data
     if data == "rnme":
         await query.message.edit_text(
