@@ -92,7 +92,9 @@ async def start_me(bot, update):
             )
             return
         else:
-            await update.reply_text(Translation.START_TEXT.format(update.from_user.first_name),
+            await update.reply_photo(
+                photo="https://telegra.ph/file/36ffbaa002a8ccfda0e32.jpg",
+                caption="""<b> Hi {} , \nI'm A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail And Custom Caption support!</b> \n <b>Bot Created By: @mr_MKN & @Mr_KN_TG </b> \n""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
