@@ -94,7 +94,7 @@ async def start_me(bot, update):
         else:
             await update.reply_photo(
                 photo="https://telegra.ph/file/36ffbaa002a8ccfda0e32.jpg",
-                caption=(Translation.START_TEXT.format(update.from_user.first_name),
+                caption(Translation.START_TEXT.format(update.from_user.first_name),
         reply_markup=InlineKeyboardMarkup(
             [
                 [
