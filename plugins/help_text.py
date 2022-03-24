@@ -94,11 +94,11 @@ async def start_me(bot, update):
         else:
             await update.reply_photo(
                 photo="https://telegra.ph/file/36ffbaa002a8ccfda0e32.jpg",
-                caption=="Translation.START_TEXT",
+                caption="<b> 👋 𝙷𝚊𝚒 , \n𝙸'𝚖 A Simple File Renamer+File To Video Converter Bot With Permanent Thumbnail And Custom Caption support!</b> \n<b>Bot Created By: @mr_MKN & @Mr_MKN_TG </b> \n ",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                        InlineKeyboardButton("ℹ️ HELP ℹ️", callback_data = "ghelp")
+                        InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data = "ghelp")
                 ],
                 [
                     InlineKeyboardButton('🤠 CREATER 🤠', url='https://t.me/mr_MKN'),
