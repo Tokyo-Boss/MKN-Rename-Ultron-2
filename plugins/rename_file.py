@@ -93,7 +93,7 @@ async def rename_doc(bot, update):
         try:
            caption_text2 = caption_text.caption.format(filename = file_name)
         except:
-           caption_text2 =f"<code>{file_name}</code>"
+           caption_text2 =f"{file_name}"
            pass 
         a = await bot.send_message(
         chat_id=update.chat.id,
