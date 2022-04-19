@@ -9,7 +9,7 @@ class Config(object):
     # Update channel for Force Subscribe
     UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
     # log channel
-    #LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001781308723")
+    #LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
     # Get these values from my.telegram.org
     CHAT_ID = os.environ.get("CHAT_ID", "")
     # Array to store users who are authorized to use the bot
@@ -38,5 +38,5 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # Database url
-    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://VR:VR@cluster0.g1qh0.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+    DB_URI = os.environ.get("DATABASE_URL", "")
     
