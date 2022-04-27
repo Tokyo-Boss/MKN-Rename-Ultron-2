@@ -18,19 +18,19 @@
     },
     "TG_BOT_TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": ""
+      "value": "5298082171:AAEMQmeHJkXdPz6h2S8obicFcJgu-Zl95sw"
     },
     "UPDATE_CHANNEL": {
       "description": "For Force Subscribe. Paste your channel Username (without @).. Also Make The Bot Admin In That Channel!! ",
-      "value": ""
+      "value": "mkn_bots_updates "
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "12751895"
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": ""
+      "value": "a832e35a109d70f412cd791b5026b958"
     },
     "BANNED_USERS": {
       "description": "Id's Of Users Which You don't Want To Use The Bot..",
@@ -47,7 +47,7 @@
     {
     "plan": "heroku-postgresql",
       "options": {
-        "version": "12"
+        "version": "13"
       }
     }
   ],
