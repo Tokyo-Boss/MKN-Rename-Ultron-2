@@ -29,7 +29,7 @@
 
 # Deploy straight to Heroku!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrMKN/MKN-Rename-Ultron-q)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/MrMKN/MKN-Rename-Ultron)
 
 # Required Strings :-
 
