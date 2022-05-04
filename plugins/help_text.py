@@ -49,7 +49,7 @@ async def help_user(bot, update):
             await update.reply_text(
                 text="**Due To The Huge Traffic Only Channel Members Can Use This Bot Means You Need To Join The Below Mentioned Channel Before Using Me! **",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="𝙹𝚘𝚒𝚗 𝙼𝚢 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="📢𝙹𝚘𝚒𝚗 𝙼𝚢 𝚄𝚙𝚍𝚊𝚝𝚎 𝙲𝚑𝚊𝚗𝚗𝚎𝚕📢", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -64,7 +64,7 @@ async def help_user(bot, update):
                     InlineKeyboardButton('📂𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️𝙲𝚞𝚜𝚝𝚘𝚖 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕', callback_data = "cthumb"),
+                    InlineKeyboardButton('🎞️𝙲𝚞𝚜𝚝𝚘𝚖 𝚃𝚑𝚞𝚖𝚋', callback_data = "cthumb"),
                     InlineKeyboardButton('📑𝙲𝚞𝚜𝚝𝚘𝚖 𝙲𝚊𝚙𝚝𝚒𝚘𝚗', callback_data = "ccaption"),
                 ]
             ]
@@ -93,7 +93,7 @@ async def start_me(bot, update):
             return
         else:
             await update.reply_photo(
-                photo="https://telegra.ph/file/3423a131fbb267aa93021.png",
+                photo="https://telegra.ph/file/2e2a07e86066538ed7406.jpg",
                 caption=f"👋 𝙷𝚊𝚒 {update.from_user.first_name} , \n𝙸'𝚖 𝙰 𝚂𝚒𝚖𝚙𝚕𝚎 𝙵𝚒𝚕𝚎 𝚁𝚎𝚗𝚊𝚖𝚎+𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘 𝙲𝚘𝚟𝚎𝚛𝚝𝚎𝚛 𝙱𝙾𝚃 𝚆𝚒𝚝𝚑 𝙿𝚎𝚛𝚖𝚊𝚗𝚎𝚗𝚝 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕 𝙰𝚗𝚍 𝙲𝚞𝚜𝚝𝚘𝚖 𝙲𝚊𝚙𝚝𝚒𝚘𝚗 𝚂𝚞𝚙𝚙𝚘𝚛𝚝! \n𝙱𝙾𝚃 𝙲𝚛𝚎𝚊𝚝𝚎𝚍 𝙱𝚢: @mr_MKN & @Mr_MKN_TG \n ",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -101,8 +101,8 @@ async def start_me(bot, update):
                         InlineKeyboardButton("ℹ️ 𝙷𝙴𝙻𝙿 ℹ️", callback_data = "ghelp")
                 ],
                 [
-                    InlineKeyboardButton('🤠 𝙲𝚁𝙴𝙰𝚃𝙴𝚁 🤠', url='https://t.me/mr_MKN'),
-                    InlineKeyboardButton('📢 support group 📢', url='https://t.me/MKN_BOTZ_DISCUSSION_GROUP'),
+                    InlineKeyboardButton('👨‍💻 𝙲𝚁𝙴𝙰𝚃𝙴𝚁', url='https://t.me/mr_MKN'),
+                    InlineKeyboardButton('📢 𝚂𝚄𝙿𝙿𝙾𝚁𝚃', url='https://t.me/MKN_BOTZ_DISCUSSION_GROUP'),
                 ]
             ]
         ),
@@ -188,7 +188,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
                     InlineKeyboardButton('📂𝙵𝚒𝚕𝚎 𝚃𝚘 𝚅𝚒𝚍𝚎𝚘', callback_data = "f2v")
                 ],
                 [
-                    InlineKeyboardButton('🎞️𝙲𝚞𝚜𝚝𝚘𝚖 𝚃𝚑𝚞𝚖𝚋𝚗𝚊𝚒𝚕', callback_data = "cthumb"),
+                    InlineKeyboardButton('🎞️𝙲𝚞𝚜𝚝𝚘𝚖 𝚃𝚑𝚞𝚖𝚋', callback_data = "cthumb"),
                     InlineKeyboardButton('📑𝙲𝚞𝚜𝚝𝚘𝚖 Caption', callback_data = "ccaption")
                 ],
                 [
