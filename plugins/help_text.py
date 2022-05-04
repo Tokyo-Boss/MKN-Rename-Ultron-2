@@ -219,7 +219,7 @@ async def cb_handler(client: Mai_bOTs , query: CallbackQuery):
      )
     elif data == "about":
         await query.message.edit_text(
-            text=Translation.ABOUT_ME,
+            text=Translation.ABOUT_ME.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(
             [
