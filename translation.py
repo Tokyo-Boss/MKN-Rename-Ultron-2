@@ -3,7 +3,7 @@ class Translation(object):
 
 <b>Bot Created By: @mr_MKN & @Mr_MKN_TG </b> \n 
 """
-    ABOUT_ME = """<i>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: 𝙼𝙺𝙽 𝚁𝙴𝙽𝙰𝙼𝙴 𝚄𝙻𝚃𝚁𝙾𝙽 
+    ABOUT_ME = """<i>✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
 ✯ 𝙲𝚁𝙴𝙰𝚃𝙴𝚁 : <a href='https://t.me/mr_MKN'>𝙼.𝚛 𝙼𝙺𝙽</a> 
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹 
